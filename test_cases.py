@@ -1,0 +1,31 @@
+test_cases = [
+    # All 18 scenarios, REWORDED
+    ("I have a sore throat and blocked nose, started two days ago", "self_care"),
+    ("I nicked my finger with a knife while cooking, small cut", "self_care"),
+    ("My eyes won't stop itching and I'm sneezing loads, is this allergies?", "self_care"),
+    ("It stings every time I use the bathroom, could this be a bladder infection?", "pharmacy"),
+    ("Got bitten by something outside, small red bump, itchy but not spreading", "pharmacy"),
+    ("I get a burning feeling in my chest after eating, happens a lot", "pharmacy"),
+    ("This cough just won't go away, it's been going on for weeks", "gp"),
+    ("My lower back's been sore for days, didn't injure it though", "gp"),
+    ("I've lost weight without trying and I'm exhausted all the time lately", "gp"),
+    ("My toddler's temperature is really high and she's really fussy", "nhs_111"),
+    ("Hit my head earlier, feeling a bit fuzzy but I can talk fine", "nhs_111"),
+    ("My breathing's been worse than usual today with my asthma", "nhs_111"),
+    ("Fell on my hand, wrist is really swollen and I can't move it", "a_and_e"),
+    ("Cut myself badly on my leg, pressing on it but it keeps bleeding", "a_and_e"),
+    ("My face has swollen up after eating something, still breathing okay though", "a_and_e"),
+    ("Sudden crushing pain in my chest and I can't catch my breath", "call_999"),
+    ("My mum's mouth looks crooked and she can't get her words out properly", "call_999"),
+    ("Someone just collapsed next to me and isn't breathing properly", "call_999"),
+    # Clearly unrelated
+    ("What's the weather like today?", None),
+    ("Can you recommend a good pizza place?", None),
+    ("How do I fix my broken laptop screen?", None),
+    ("Tell me a joke", None),
+    # Tricky borderline health questions NOT in our 18
+    ("I've been feeling really anxious and can't sleep lately", None),
+    ("I twisted my ankle playing football yesterday", None),
+    ("I have a headache that won't go away", None),
+    ("My child has a rash that's spreading quickly", None),
+]
